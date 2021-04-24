@@ -1,0 +1,1159 @@
+2021-04-23 02:40:22,925 - freqtrade.loggers - INFO - Verbosity set to 0
+2021-04-23 02:40:22,925 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2021-04-23 02:40:22,925 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2021-04-23 02:40:22,925 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2021-04-23 02:40:22,925 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2021-04-23 02:40:22,925 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2021-04-23 02:40:22,925 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2021-04-23 02:40:22,926 - freqtrade.configuration.directory_operations - INFO - Created data directory: None
+2021-04-23 02:40:22,926 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2021-04-23 02:40:22,926 - freqtrade.configuration.check_exchange - INFO - Checking exchange...
+2021-04-23 02:40:22,926 - freqtrade.configuration.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2021-04-23 02:40:22,926 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2021-04-23 02:40:22,926 - freqtrade.freqtradebot - INFO - Starting freqtrade 2021.3
+2021-04-23 02:40:22,938 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy SampleStrategy from '/freqtrade/user_data/strategies/sample_strategy.py'...
+2021-04-23 02:40:22,938 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'timeframe' with value in config file: 5m.
+2021-04-23 02:40:22,939 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: BTC.
+2021-04-23 02:40:22,939 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: 0.01.
+2021-04-23 02:40:22,939 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'buy': 10, 'sell': 30}.
+2021-04-23 02:40:22,939 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'use_sell_signal' with value in config file: True.
+2021-04-23 02:40:22,939 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'sell_profit_only' with value in config file: False.
+2021-04-23 02:40:22,939 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'ignore_roi_if_buy_signal' with value in config file: False.
+2021-04-23 02:40:22,939 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'60': 0.01, '30': 0.02, '0': 0.04}
+2021-04-23 02:40:22,939 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2021-04-23 02:40:22,939 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.1
+2021-04-23 02:40:22,939 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2021-04-23 02:40:22,939 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2021-04-23 02:40:22,940 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2021-04-23 02:40:22,940 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2021-04-23 02:40:22,940 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: False
+2021-04-23 02:40:22,940 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'buy': 'limit', 'sell': 'limit', 'stoploss': 'market', 'stoploss_on_exchange': False}
+2021-04-23 02:40:22,940 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'buy': 'gtc', 'sell': 'gtc'}
+2021-04-23 02:40:22,940 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: BTC
+2021-04-23 02:40:22,940 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: 0.01
+2021-04-23 02:40:22,940 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 30
+2021-04-23 02:40:22,940 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'buy': 10, 'sell': 30}
+2021-04-23 02:40:22,940 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_sell_signal: True
+2021-04-23 02:40:22,940 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using sell_profit_only: False
+2021-04-23 02:40:22,940 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_buy_signal: False
+2021-04-23 02:40:22,941 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using sell_profit_offset: 0.0
+2021-04-23 02:40:22,941 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2021-04-23 02:40:22,941 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2021-04-23 02:40:22,941 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2021-04-23 02:40:22,943 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2021-04-23 02:40:22,943 - freqtrade.exchange.exchange - INFO - Using CCXT 1.43.89
+2021-04-23 02:40:22,943 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'enableRateLimit': True}
+2021-04-23 02:40:22,948 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'enableRateLimit': True, 'rateLimit': 200}
+2021-04-23 02:40:22,954 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2021-04-23 02:40:24,970 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2021-04-23 02:40:25,144 - freqtrade.wallets - INFO - Wallets synced.
+2021-04-23 02:40:25,146 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist StaticPairList from '/freqtrade/freqtrade/plugins/pairlist/StaticPairList.py'...
+2021-04-23 02:40:25,146 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2021-04-23 02:40:25,302 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.telegram ...
+2021-04-23 02:40:25,756 - apscheduler.scheduler - INFO - Scheduler started
+2021-04-23 02:40:26,724 - freqtrade.rpc.telegram - INFO - rpc.telegram is listening for following commands: [['status'], ['profit'], ['balance'], ['start'], ['stop'], ['forcesell'], ['forcebuy'], ['trades'], ['delete'], ['performance'], ['stats'], ['daily'], ['count'], ['locks'], ['unlock', 'delete_locks'], ['reload_config', 'reload_conf'], ['show_config', 'show_conf'], ['stopbuy'], ['whitelist'], ['blacklist'], ['logs'], ['edge'], ['help'], ['version']]
+2021-04-23 02:40:26,724 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2021-04-23 02:40:27,583 - freqtrade.worker - INFO - Changing state to: RUNNING
+2021-04-23 02:40:27,583 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': 'Dry run is enabled. All trades are simulated.'}
+2021-04-23 02:40:27,974 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `binance`\n*Stake per trade:* `0.01 BTC`\n*Minimum ROI:* `{'60': 0.01, '30': 0.02, '0': 0.04}`\n*Stoploss:* `-0.1`\n*Timeframe:* `5m`\n*Strategy:* `SampleStrategy`"}
+2021-04-23 02:40:28,362 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for BTC pairs to buy and sell based on [{'StaticPairList': 'StaticPairList'}]"}
+2021-04-23 02:40:32,749 - freqtrade.data.converter - INFO - Missing data fillup for XRP/BTC: before: 999 - after: 1029
+2021-04-23 02:40:32,764 - freqtrade.data.converter - INFO - Missing data fillup for BCH/BTC: before: 999 - after: 1029
+2021-04-23 02:40:32,779 - freqtrade.data.converter - INFO - Missing data fillup for ATOM/BTC: before: 999 - after: 1029
+2021-04-23 02:40:32,793 - freqtrade.data.converter - INFO - Missing data fillup for XTZ/BTC: before: 999 - after: 1029
+2021-04-23 02:40:32,808 - freqtrade.data.converter - INFO - Missing data fillup for EOS/BTC: before: 999 - after: 1029
+2021-04-23 02:40:32,823 - freqtrade.data.converter - INFO - Missing data fillup for NEO/BTC: before: 999 - after: 1029
+2021-04-23 02:40:32,838 - freqtrade.data.converter - INFO - Missing data fillup for BRD/BTC: before: 999 - after: 1029
+2021-04-23 02:40:32,852 - freqtrade.data.converter - INFO - Missing data fillup for ETH/BTC: before: 999 - after: 1029
+2021-04-23 02:40:32,867 - freqtrade.data.converter - INFO - Missing data fillup for ALGO/BTC: before: 999 - after: 1029
+2021-04-23 02:40:32,882 - freqtrade.data.converter - INFO - Missing data fillup for LTC/BTC: before: 999 - after: 1029
+2021-04-23 02:40:32,896 - freqtrade.data.converter - INFO - Missing data fillup for LINK/BTC: before: 999 - after: 1029
+2021-04-23 02:40:32,911 - freqtrade.data.converter - INFO - Missing data fillup for NXS/BTC: before: 999 - after: 1029
+2021-04-23 02:40:32,925 - freqtrade.data.converter - INFO - Missing data fillup for BAT/BTC: before: 999 - after: 1029
+2021-04-23 02:40:32,940 - freqtrade.data.converter - INFO - Missing data fillup for IOTA/BTC: before: 999 - after: 1029
+2021-04-23 02:40:32,954 - freqtrade.data.converter - INFO - Missing data fillup for XMR/BTC: before: 999 - after: 1029
+2021-04-23 02:40:32,962 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2021-04-23 02:40:32,963 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2021-04-23 02:40:33,222 - freqtrade.wallets - INFO - Wallets synced.
+2021-04-23 02:40:33,224 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 0.01 ...
+2021-04-23 02:40:33,224 - freqtrade.freqtradebot - INFO - Executing Buy for BCH/BTC
+2021-04-23 02:40:33,224 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2021-04-23 02:40:33,637 - freqtrade.wallets - INFO - Wallets synced.
+2021-04-23 02:40:33,638 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 1, 'type': buy, 'exchange': 'Binance', 'pair': 'BCH/BTC', 'limit': 0.014971, 'order_type': 'limit', 'stake_amount': 0.01, 'stake_currency': 'BTC', 'fiat_currency': 'BRL', 'amount': 0.667, 'open_date': datetime.datetime(2021, 4, 23, 2, 40, 33, 621252), 'current_rate': 0.014971}
+2021-04-23 02:40:34,067 - freqtrade.wallets - INFO - Wallets synced.
+2021-04-23 02:40:34,068 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 0.01 ...
+2021-04-23 02:40:34,068 - freqtrade.freqtradebot - INFO - Executing Buy for IOTA/BTC
+2021-04-23 02:40:34,068 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2021-04-23 02:40:34,480 - freqtrade.wallets - INFO - Wallets synced.
+2021-04-23 02:40:34,480 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 2, 'type': buy, 'exchange': 'Binance', 'pair': 'IOTA/BTC', 'limit': 3.225e-05, 'order_type': 'limit', 'stake_amount': 0.01, 'stake_currency': 'BTC', 'fiat_currency': 'BRL', 'amount': 310.077519379845, 'open_date': datetime.datetime(2021, 4, 23, 2, 40, 34, 465937), 'current_rate': 3.225e-05}
+2021-04-23 02:40:34,882 - freqtrade.wallets - INFO - Wallets synced.
+2021-04-23 02:40:34,883 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 0.01 ...
+2021-04-23 02:40:34,883 - freqtrade.freqtradebot - INFO - Executing Buy for XRP/BTC
+2021-04-23 02:40:34,883 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2021-04-23 02:40:35,286 - freqtrade.wallets - INFO - Wallets synced.
+2021-04-23 02:40:35,287 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 3, 'type': buy, 'exchange': 'Binance', 'pair': 'XRP/BTC', 'limit': 1.982e-05, 'order_type': 'limit', 'stake_amount': 0.01, 'stake_currency': 'BTC', 'fiat_currency': 'BRL', 'amount': 504.54086781029264, 'open_date': datetime.datetime(2021, 4, 23, 2, 40, 35, 270340), 'current_rate': 1.982e-05}
+2021-04-23 02:40:35,697 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 02:40:35,991 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BCH/BTC, amount=0.66700000, open_rate=0.01497100, open_since=2021-04-23 02:40:33)
+2021-04-23 02:40:35,995 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=1, pair=BCH/BTC, amount=0.66700000, open_rate=0.01497100, open_since=2021-04-23 02:40:33) [buy]: 9.985657e-06 BTC - rate: 0.001
+2021-04-23 02:40:35,996 - freqtrade.persistence.models - INFO - Updating trade (id=1) ...
+2021-04-23 02:40:35,996 - freqtrade.persistence.models - INFO - LIMIT_BUY has been fulfilled for Trade(id=1, pair=BCH/BTC, amount=0.66700000, open_rate=0.01497100, open_since=2021-04-23 02:40:33).
+2021-04-23 02:40:36,010 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=IOTA/BTC, amount=310.07751938, open_rate=0.00003225, open_since=2021-04-23 02:40:34)
+2021-04-23 02:40:36,011 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=2, pair=IOTA/BTC, amount=310.07751938, open_rate=0.00003225, open_since=2021-04-23 02:40:34) [buy]: 1e-05 BTC - rate: 0.001
+2021-04-23 02:40:36,011 - freqtrade.persistence.models - INFO - Updating trade (id=2) ...
+2021-04-23 02:40:36,012 - freqtrade.persistence.models - INFO - LIMIT_BUY has been fulfilled for Trade(id=2, pair=IOTA/BTC, amount=310.07751938, open_rate=0.00003225, open_since=2021-04-23 02:40:34).
+2021-04-23 02:40:36,023 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=3, pair=XRP/BTC, amount=504.54086781, open_rate=0.00001982, open_since=2021-04-23 02:40:35)
+2021-04-23 02:40:36,024 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=3, pair=XRP/BTC, amount=504.54086781, open_rate=0.00001982, open_since=2021-04-23 02:40:35) [buy]: 1e-05 BTC - rate: 0.001
+2021-04-23 02:40:36,025 - freqtrade.persistence.models - INFO - Updating trade (id=3) ...
+2021-04-23 02:40:36,025 - freqtrade.persistence.models - INFO - LIMIT_BUY has been fulfilled for Trade(id=3, pair=XRP/BTC, amount=504.54086781, open_rate=0.00001982, open_since=2021-04-23 02:40:35).
+2021-04-23 02:41:35,728 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 02:42:09,705 - freqtrade.rpc.telegram - INFO - Executing handler: _profit for chat_id: 1683056719
+2021-04-23 02:42:17,279 - freqtrade.rpc.telegram - INFO - Executing handler: _balance for chat_id: 1683056719
+2021-04-23 02:42:28,071 - freqtrade.rpc.telegram - INFO - Executing handler: _status for chat_id: 1683056719
+2021-04-23 02:42:28,071 - freqtrade.rpc.telegram - INFO - Executing handler: _status_table for chat_id: 1683056719
+2021-04-23 02:42:32,472 - freqtrade.rpc.telegram - INFO - Executing handler: _status for chat_id: 1683056719
+2021-04-23 02:42:35,768 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 02:43:35,805 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 02:44:35,846 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 02:45:08,934 - freqtrade.data.converter - INFO - Missing data fillup for XRP/BTC: before: 999 - after: 1029
+2021-04-23 02:45:08,950 - freqtrade.data.converter - INFO - Missing data fillup for BCH/BTC: before: 999 - after: 1029
+2021-04-23 02:45:08,966 - freqtrade.data.converter - INFO - Missing data fillup for ATOM/BTC: before: 999 - after: 1029
+2021-04-23 02:45:08,983 - freqtrade.data.converter - INFO - Missing data fillup for XTZ/BTC: before: 999 - after: 1029
+2021-04-23 02:45:08,999 - freqtrade.data.converter - INFO - Missing data fillup for EOS/BTC: before: 999 - after: 1029
+2021-04-23 02:45:09,014 - freqtrade.data.converter - INFO - Missing data fillup for NEO/BTC: before: 999 - after: 1029
+2021-04-23 02:45:09,030 - freqtrade.data.converter - INFO - Missing data fillup for BRD/BTC: before: 999 - after: 1029
+2021-04-23 02:45:09,045 - freqtrade.data.converter - INFO - Missing data fillup for ETH/BTC: before: 999 - after: 1029
+2021-04-23 02:45:09,061 - freqtrade.data.converter - INFO - Missing data fillup for ALGO/BTC: before: 999 - after: 1029
+2021-04-23 02:45:09,076 - freqtrade.data.converter - INFO - Missing data fillup for LTC/BTC: before: 999 - after: 1029
+2021-04-23 02:45:09,091 - freqtrade.data.converter - INFO - Missing data fillup for LINK/BTC: before: 999 - after: 1029
+2021-04-23 02:45:09,106 - freqtrade.data.converter - INFO - Missing data fillup for NXS/BTC: before: 999 - after: 1029
+2021-04-23 02:45:09,121 - freqtrade.data.converter - INFO - Missing data fillup for BAT/BTC: before: 999 - after: 1029
+2021-04-23 02:45:09,136 - freqtrade.data.converter - INFO - Missing data fillup for IOTA/BTC: before: 999 - after: 1029
+2021-04-23 02:45:09,151 - freqtrade.data.converter - INFO - Missing data fillup for XMR/BTC: before: 999 - after: 1029
+2021-04-23 02:45:14,809 - freqtrade.data.converter - INFO - Missing data fillup for XRP/BTC: before: 999 - after: 1029
+2021-04-23 02:45:14,825 - freqtrade.data.converter - INFO - Missing data fillup for BCH/BTC: before: 999 - after: 1029
+2021-04-23 02:45:14,841 - freqtrade.data.converter - INFO - Missing data fillup for ATOM/BTC: before: 999 - after: 1029
+2021-04-23 02:45:14,857 - freqtrade.data.converter - INFO - Missing data fillup for XTZ/BTC: before: 999 - after: 1029
+2021-04-23 02:45:14,930 - freqtrade.data.converter - INFO - Missing data fillup for EOS/BTC: before: 999 - after: 1029
+2021-04-23 02:45:14,946 - freqtrade.data.converter - INFO - Missing data fillup for NEO/BTC: before: 999 - after: 1029
+2021-04-23 02:45:14,961 - freqtrade.data.converter - INFO - Missing data fillup for BRD/BTC: before: 999 - after: 1029
+2021-04-23 02:45:14,977 - freqtrade.data.converter - INFO - Missing data fillup for ETH/BTC: before: 999 - after: 1029
+2021-04-23 02:45:14,993 - freqtrade.data.converter - INFO - Missing data fillup for ALGO/BTC: before: 999 - after: 1029
+2021-04-23 02:45:15,008 - freqtrade.data.converter - INFO - Missing data fillup for LTC/BTC: before: 999 - after: 1029
+2021-04-23 02:45:15,024 - freqtrade.data.converter - INFO - Missing data fillup for LINK/BTC: before: 999 - after: 1029
+2021-04-23 02:45:15,039 - freqtrade.data.converter - INFO - Missing data fillup for NXS/BTC: before: 999 - after: 1029
+2021-04-23 02:45:15,055 - freqtrade.data.converter - INFO - Missing data fillup for BAT/BTC: before: 999 - after: 1029
+2021-04-23 02:45:15,071 - freqtrade.data.converter - INFO - Missing data fillup for IOTA/BTC: before: 999 - after: 1029
+2021-04-23 02:45:15,086 - freqtrade.data.converter - INFO - Missing data fillup for XMR/BTC: before: 999 - after: 1029
+2021-04-23 02:45:36,697 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 02:46:36,738 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 02:47:36,779 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 02:48:36,818 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 02:49:22,983 - freqtrade.freqtradebot - INFO - Executing Sell for IOTA/BTC. Reason: roi
+2021-04-23 02:49:22,995 - freqtrade.wallets - INFO - Wallets synced.
+2021-04-23 02:49:23,026 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell, 'trade_id': 2, 'exchange': 'Binance', 'pair': 'IOTA/BTC', 'gain': 'profit', 'limit': 3.368e-05, 'order_type': 'limit', 'amount': 310.077519379845, 'open_rate': 3.225e-05, 'current_rate': 3.368e-05, 'profit_amount': 0.00042297, 'profit_ratio': 0.04225449, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 4, 23, 2, 40, 34, 465937), 'close_date': datetime.datetime(2021, 4, 23, 2, 49, 23, 26969), 'stake_currency': 'BTC', 'fiat_currency': 'BRL'}
+2021-04-23 02:49:23,818 - freqtrade.wallets - INFO - Wallets synced.
+2021-04-23 02:49:27,123 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=IOTA/BTC, amount=310.07751938, open_rate=0.00003225, open_since=2021-04-23 02:40:34)
+2021-04-23 02:49:27,124 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=2, pair=IOTA/BTC, amount=310.07751938, open_rate=0.00003225, open_since=2021-04-23 02:40:34) [sell]: 1.0443411e-05 BTC - rate: 0.001
+2021-04-23 02:49:27,124 - freqtrade.persistence.models - INFO - Updating trade (id=2) ...
+2021-04-23 02:49:27,124 - freqtrade.persistence.models - INFO - LIMIT_SELL has been fulfilled for Trade(id=2, pair=IOTA/BTC, amount=310.07751938, open_rate=0.00003225, open_since=2021-04-23 02:40:34).
+2021-04-23 02:49:27,125 - freqtrade.persistence.models - INFO - Marking Trade(id=2, pair=IOTA/BTC, amount=310.07751938, open_rate=0.00003225, open_since=closed) as closed as the trade is fulfilled and found no open orders for it.
+2021-04-23 02:49:27,256 - freqtrade.wallets - INFO - Wallets synced.
+2021-04-23 02:49:28,144 - freqtrade.wallets - INFO - Wallets synced.
+2021-04-23 02:49:28,146 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 0.01 ...
+2021-04-23 02:49:28,146 - freqtrade.freqtradebot - INFO - Executing Buy for ETH/BTC
+2021-04-23 02:49:28,146 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2021-04-23 02:49:28,682 - freqtrade.wallets - INFO - Wallets synced.
+2021-04-23 02:49:28,683 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 4, 'type': buy, 'exchange': 'Binance', 'pair': 'ETH/BTC', 'limit': 0.045052, 'order_type': 'limit', 'stake_amount': 0.01, 'stake_currency': 'BTC', 'fiat_currency': 'BRL', 'amount': 0.221, 'open_date': datetime.datetime(2021, 4, 23, 2, 49, 28, 665275), 'current_rate': 0.045052}
+2021-04-23 02:49:29,051 - freqtrade.freqtradebot - INFO - Pair IOTA/BTC is still locked until 2021-04-23 02:50:00.
+2021-04-23 02:49:32,133 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=4, pair=ETH/BTC, amount=0.22100000, open_rate=0.04505200, open_since=2021-04-23 02:49:28)
+2021-04-23 02:49:32,134 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=4, pair=ETH/BTC, amount=0.22100000, open_rate=0.04505200, open_since=2021-04-23 02:49:28) [buy]: 9.956492e-06 BTC - rate: 0.001
+2021-04-23 02:49:32,134 - freqtrade.persistence.models - INFO - Updating trade (id=4) ...
+2021-04-23 02:49:32,134 - freqtrade.persistence.models - INFO - LIMIT_BUY has been fulfilled for Trade(id=4, pair=ETH/BTC, amount=0.22100000, open_rate=0.04505200, open_since=2021-04-23 02:49:28).
+2021-04-23 02:49:36,856 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 02:50:04,974 - freqtrade.data.converter - INFO - Missing data fillup for XRP/BTC: before: 999 - after: 1029
+2021-04-23 02:50:04,990 - freqtrade.data.converter - INFO - Missing data fillup for BCH/BTC: before: 999 - after: 1029
+2021-04-23 02:50:05,007 - freqtrade.data.converter - INFO - Missing data fillup for ATOM/BTC: before: 999 - after: 1029
+2021-04-23 02:50:05,023 - freqtrade.data.converter - INFO - Missing data fillup for XTZ/BTC: before: 999 - after: 1029
+2021-04-23 02:50:05,039 - freqtrade.data.converter - INFO - Missing data fillup for EOS/BTC: before: 999 - after: 1029
+2021-04-23 02:50:05,054 - freqtrade.data.converter - INFO - Missing data fillup for NEO/BTC: before: 999 - after: 1029
+2021-04-23 02:50:05,070 - freqtrade.data.converter - INFO - Missing data fillup for BRD/BTC: before: 999 - after: 1029
+2021-04-23 02:50:05,086 - freqtrade.data.converter - INFO - Missing data fillup for ETH/BTC: before: 999 - after: 1029
+2021-04-23 02:50:05,102 - freqtrade.data.converter - INFO - Missing data fillup for ALGO/BTC: before: 999 - after: 1029
+2021-04-23 02:50:05,120 - freqtrade.data.converter - INFO - Missing data fillup for LTC/BTC: before: 999 - after: 1029
+2021-04-23 02:50:05,138 - freqtrade.data.converter - INFO - Missing data fillup for LINK/BTC: before: 999 - after: 1029
+2021-04-23 02:50:05,154 - freqtrade.data.converter - INFO - Missing data fillup for NXS/BTC: before: 999 - after: 1029
+2021-04-23 02:50:05,170 - freqtrade.data.converter - INFO - Missing data fillup for BAT/BTC: before: 999 - after: 1029
+2021-04-23 02:50:05,185 - freqtrade.data.converter - INFO - Missing data fillup for IOTA/BTC: before: 999 - after: 1029
+2021-04-23 02:50:05,201 - freqtrade.data.converter - INFO - Missing data fillup for XMR/BTC: before: 999 - after: 1029
+2021-04-23 02:50:10,178 - freqtrade.data.converter - INFO - Missing data fillup for XRP/BTC: before: 999 - after: 1029
+2021-04-23 02:50:10,192 - freqtrade.data.converter - INFO - Missing data fillup for BCH/BTC: before: 999 - after: 1029
+2021-04-23 02:50:10,207 - freqtrade.data.converter - INFO - Missing data fillup for ATOM/BTC: before: 999 - after: 1029
+2021-04-23 02:50:10,222 - freqtrade.data.converter - INFO - Missing data fillup for XTZ/BTC: before: 999 - after: 1029
+2021-04-23 02:50:10,238 - freqtrade.data.converter - INFO - Missing data fillup for EOS/BTC: before: 999 - after: 1029
+2021-04-23 02:50:10,253 - freqtrade.data.converter - INFO - Missing data fillup for NEO/BTC: before: 999 - after: 1029
+2021-04-23 02:50:10,268 - freqtrade.data.converter - INFO - Missing data fillup for BRD/BTC: before: 999 - after: 1029
+2021-04-23 02:50:10,283 - freqtrade.data.converter - INFO - Missing data fillup for ETH/BTC: before: 999 - after: 1029
+2021-04-23 02:50:10,298 - freqtrade.data.converter - INFO - Missing data fillup for ALGO/BTC: before: 999 - after: 1029
+2021-04-23 02:50:10,314 - freqtrade.data.converter - INFO - Missing data fillup for LTC/BTC: before: 999 - after: 1029
+2021-04-23 02:50:10,329 - freqtrade.data.converter - INFO - Missing data fillup for LINK/BTC: before: 999 - after: 1029
+2021-04-23 02:50:10,344 - freqtrade.data.converter - INFO - Missing data fillup for NXS/BTC: before: 999 - after: 1029
+2021-04-23 02:50:10,359 - freqtrade.data.converter - INFO - Missing data fillup for BAT/BTC: before: 999 - after: 1029
+2021-04-23 02:50:10,374 - freqtrade.data.converter - INFO - Missing data fillup for IOTA/BTC: before: 999 - after: 1029
+2021-04-23 02:50:10,389 - freqtrade.data.converter - INFO - Missing data fillup for XMR/BTC: before: 999 - after: 1029
+2021-04-23 02:50:14,907 - freqtrade.data.converter - INFO - Missing data fillup for XRP/BTC: before: 999 - after: 1029
+2021-04-23 02:50:14,922 - freqtrade.data.converter - INFO - Missing data fillup for BCH/BTC: before: 999 - after: 1029
+2021-04-23 02:50:14,936 - freqtrade.data.converter - INFO - Missing data fillup for ATOM/BTC: before: 999 - after: 1029
+2021-04-23 02:50:14,951 - freqtrade.data.converter - INFO - Missing data fillup for XTZ/BTC: before: 999 - after: 1029
+2021-04-23 02:50:14,966 - freqtrade.data.converter - INFO - Missing data fillup for EOS/BTC: before: 999 - after: 1029
+2021-04-23 02:50:14,981 - freqtrade.data.converter - INFO - Missing data fillup for NEO/BTC: before: 999 - after: 1029
+2021-04-23 02:50:14,996 - freqtrade.data.converter - INFO - Missing data fillup for BRD/BTC: before: 999 - after: 1029
+2021-04-23 02:50:15,011 - freqtrade.data.converter - INFO - Missing data fillup for ETH/BTC: before: 999 - after: 1029
+2021-04-23 02:50:15,026 - freqtrade.data.converter - INFO - Missing data fillup for ALGO/BTC: before: 999 - after: 1029
+2021-04-23 02:50:15,041 - freqtrade.data.converter - INFO - Missing data fillup for LTC/BTC: before: 999 - after: 1029
+2021-04-23 02:50:15,056 - freqtrade.data.converter - INFO - Missing data fillup for LINK/BTC: before: 999 - after: 1029
+2021-04-23 02:50:15,071 - freqtrade.data.converter - INFO - Missing data fillup for NXS/BTC: before: 999 - after: 1029
+2021-04-23 02:50:15,086 - freqtrade.data.converter - INFO - Missing data fillup for IOTA/BTC: before: 999 - after: 1029
+2021-04-23 02:50:15,101 - freqtrade.data.converter - INFO - Missing data fillup for XMR/BTC: before: 999 - after: 1029
+2021-04-23 02:50:37,022 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 02:51:37,063 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 02:52:37,106 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 02:53:03,257 - freqtrade.freqtradebot - INFO - Executing Sell for XRP/BTC. Reason: roi
+2021-04-23 02:53:03,273 - freqtrade.wallets - INFO - Wallets synced.
+2021-04-23 02:53:03,299 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell, 'trade_id': 3, 'exchange': 'Binance', 'pair': 'XRP/BTC', 'gain': 'profit', 'limit': 2.073e-05, 'order_type': 'limit', 'amount': 504.54086781029264, 'open_rate': 1.982e-05, 'current_rate': 2.073e-05, 'profit_amount': 0.00043867, 'profit_ratio': 0.04382348, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 4, 23, 2, 40, 35, 270340), 'close_date': datetime.datetime(2021, 4, 23, 2, 53, 3, 299573), 'stake_currency': 'BTC', 'fiat_currency': 'BRL'}
+2021-04-23 02:53:04,083 - freqtrade.wallets - INFO - Wallets synced.
+2021-04-23 02:53:07,402 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=3, pair=XRP/BTC, amount=504.54086781, open_rate=0.00001982, open_since=2021-04-23 02:40:35)
+2021-04-23 02:53:07,404 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=3, pair=XRP/BTC, amount=504.54086781, open_rate=0.00001982, open_since=2021-04-23 02:40:35) [sell]: 1.0459132e-05 BTC - rate: 0.001
+2021-04-23 02:53:07,404 - freqtrade.persistence.models - INFO - Updating trade (id=3) ...
+2021-04-23 02:53:07,404 - freqtrade.persistence.models - INFO - LIMIT_SELL has been fulfilled for Trade(id=3, pair=XRP/BTC, amount=504.54086781, open_rate=0.00001982, open_since=2021-04-23 02:40:35).
+2021-04-23 02:53:07,404 - freqtrade.persistence.models - INFO - Marking Trade(id=3, pair=XRP/BTC, amount=504.54086781, open_rate=0.00001982, open_since=closed) as closed as the trade is fulfilled and found no open orders for it.
+2021-04-23 02:53:07,423 - freqtrade.wallets - INFO - Wallets synced.
+2021-04-23 02:53:08,306 - freqtrade.wallets - INFO - Wallets synced.
+2021-04-23 02:53:08,307 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 0.01 ...
+2021-04-23 02:53:08,307 - freqtrade.freqtradebot - INFO - Executing Buy for BAT/BTC
+2021-04-23 02:53:08,307 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2021-04-23 02:53:08,799 - freqtrade.wallets - INFO - Wallets synced.
+2021-04-23 02:53:08,799 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 5, 'type': buy, 'exchange': 'Binance', 'pair': 'BAT/BTC', 'limit': 1.89e-05, 'order_type': 'limit', 'stake_amount': 0.01, 'stake_currency': 'BTC', 'fiat_currency': 'BRL', 'amount': 529.1005291005291, 'open_date': datetime.datetime(2021, 4, 23, 2, 53, 8, 783252), 'current_rate': 1.89e-05}
+2021-04-23 02:53:09,205 - freqtrade.freqtradebot - INFO - Pair XRP/BTC is still locked until 2021-04-23 02:55:00.
+2021-04-23 02:53:12,406 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=5, pair=BAT/BTC, amount=529.10052910, open_rate=0.00001890, open_since=2021-04-23 02:53:08)
+2021-04-23 02:53:12,407 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=5, pair=BAT/BTC, amount=529.10052910, open_rate=0.00001890, open_since=2021-04-23 02:53:08) [buy]: 1e-05 BTC - rate: 0.001
+2021-04-23 02:53:12,408 - freqtrade.persistence.models - INFO - Updating trade (id=5) ...
+2021-04-23 02:53:12,408 - freqtrade.persistence.models - INFO - LIMIT_BUY has been fulfilled for Trade(id=5, pair=BAT/BTC, amount=529.10052910, open_rate=0.00001890, open_since=2021-04-23 02:53:08).
+2021-04-23 02:53:37,148 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 02:54:37,190 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 02:55:05,277 - freqtrade.data.converter - INFO - Missing data fillup for XRP/BTC: before: 999 - after: 1029
+2021-04-23 02:55:05,292 - freqtrade.data.converter - INFO - Missing data fillup for BCH/BTC: before: 999 - after: 1029
+2021-04-23 02:55:05,307 - freqtrade.data.converter - INFO - Missing data fillup for ATOM/BTC: before: 999 - after: 1029
+2021-04-23 02:55:05,322 - freqtrade.data.converter - INFO - Missing data fillup for XTZ/BTC: before: 999 - after: 1029
+2021-04-23 02:55:05,338 - freqtrade.data.converter - INFO - Missing data fillup for EOS/BTC: before: 999 - after: 1029
+2021-04-23 02:55:05,353 - freqtrade.data.converter - INFO - Missing data fillup for NEO/BTC: before: 999 - after: 1029
+2021-04-23 02:55:05,368 - freqtrade.data.converter - INFO - Missing data fillup for BRD/BTC: before: 999 - after: 1029
+2021-04-23 02:55:05,383 - freqtrade.data.converter - INFO - Missing data fillup for ETH/BTC: before: 999 - after: 1029
+2021-04-23 02:55:05,398 - freqtrade.data.converter - INFO - Missing data fillup for ALGO/BTC: before: 999 - after: 1029
+2021-04-23 02:55:05,413 - freqtrade.data.converter - INFO - Missing data fillup for LTC/BTC: before: 999 - after: 1029
+2021-04-23 02:55:05,428 - freqtrade.data.converter - INFO - Missing data fillup for LINK/BTC: before: 999 - after: 1029
+2021-04-23 02:55:05,443 - freqtrade.data.converter - INFO - Missing data fillup for NXS/BTC: before: 999 - after: 1029
+2021-04-23 02:55:05,458 - freqtrade.data.converter - INFO - Missing data fillup for BAT/BTC: before: 999 - after: 1029
+2021-04-23 02:55:05,473 - freqtrade.data.converter - INFO - Missing data fillup for IOTA/BTC: before: 999 - after: 1029
+2021-04-23 02:55:05,488 - freqtrade.data.converter - INFO - Missing data fillup for XMR/BTC: before: 999 - after: 1029
+2021-04-23 02:55:10,366 - freqtrade.data.converter - INFO - Missing data fillup for XRP/BTC: before: 999 - after: 1029
+2021-04-23 02:55:10,382 - freqtrade.data.converter - INFO - Missing data fillup for BCH/BTC: before: 999 - after: 1029
+2021-04-23 02:55:10,397 - freqtrade.data.converter - INFO - Missing data fillup for ATOM/BTC: before: 999 - after: 1029
+2021-04-23 02:55:10,412 - freqtrade.data.converter - INFO - Missing data fillup for XTZ/BTC: before: 999 - after: 1029
+2021-04-23 02:55:10,427 - freqtrade.data.converter - INFO - Missing data fillup for EOS/BTC: before: 999 - after: 1029
+2021-04-23 02:55:10,442 - freqtrade.data.converter - INFO - Missing data fillup for NEO/BTC: before: 999 - after: 1029
+2021-04-23 02:55:10,457 - freqtrade.data.converter - INFO - Missing data fillup for BRD/BTC: before: 999 - after: 1029
+2021-04-23 02:55:10,472 - freqtrade.data.converter - INFO - Missing data fillup for ETH/BTC: before: 999 - after: 1029
+2021-04-23 02:55:10,487 - freqtrade.data.converter - INFO - Missing data fillup for ALGO/BTC: before: 999 - after: 1029
+2021-04-23 02:55:10,502 - freqtrade.data.converter - INFO - Missing data fillup for LTC/BTC: before: 999 - after: 1029
+2021-04-23 02:55:10,518 - freqtrade.data.converter - INFO - Missing data fillup for LINK/BTC: before: 999 - after: 1029
+2021-04-23 02:55:10,533 - freqtrade.data.converter - INFO - Missing data fillup for NXS/BTC: before: 999 - after: 1029
+2021-04-23 02:55:10,548 - freqtrade.data.converter - INFO - Missing data fillup for BAT/BTC: before: 999 - after: 1029
+2021-04-23 02:55:10,563 - freqtrade.data.converter - INFO - Missing data fillup for IOTA/BTC: before: 999 - after: 1029
+2021-04-23 02:55:10,578 - freqtrade.data.converter - INFO - Missing data fillup for XMR/BTC: before: 999 - after: 1029
+2021-04-23 02:55:13,149 - freqtrade.data.converter - INFO - Missing data fillup for XTZ/BTC: before: 999 - after: 1029
+2021-04-23 02:55:13,165 - freqtrade.data.converter - INFO - Missing data fillup for BRD/BTC: before: 999 - after: 1029
+2021-04-23 02:55:13,179 - freqtrade.data.converter - INFO - Missing data fillup for NXS/BTC: before: 999 - after: 1029
+2021-04-23 02:55:37,253 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 02:56:37,293 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 02:57:37,335 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 02:58:37,378 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 02:59:37,419 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 03:00:05,908 - freqtrade.data.converter - INFO - Missing data fillup for XRP/BTC: before: 999 - after: 1029
+2021-04-23 03:00:05,923 - freqtrade.data.converter - INFO - Missing data fillup for BCH/BTC: before: 999 - after: 1029
+2021-04-23 03:00:05,938 - freqtrade.data.converter - INFO - Missing data fillup for ATOM/BTC: before: 999 - after: 1029
+2021-04-23 03:00:05,953 - freqtrade.data.converter - INFO - Missing data fillup for XTZ/BTC: before: 999 - after: 1029
+2021-04-23 03:00:05,968 - freqtrade.data.converter - INFO - Missing data fillup for EOS/BTC: before: 999 - after: 1029
+2021-04-23 03:00:05,983 - freqtrade.data.converter - INFO - Missing data fillup for NEO/BTC: before: 999 - after: 1029
+2021-04-23 03:00:06,000 - freqtrade.data.converter - INFO - Missing data fillup for BRD/BTC: before: 999 - after: 1029
+2021-04-23 03:00:06,015 - freqtrade.data.converter - INFO - Missing data fillup for ETH/BTC: before: 999 - after: 1029
+2021-04-23 03:00:06,031 - freqtrade.data.converter - INFO - Missing data fillup for ALGO/BTC: before: 999 - after: 1029
+2021-04-23 03:00:06,047 - freqtrade.data.converter - INFO - Missing data fillup for LTC/BTC: before: 999 - after: 1029
+2021-04-23 03:00:06,062 - freqtrade.data.converter - INFO - Missing data fillup for LINK/BTC: before: 999 - after: 1029
+2021-04-23 03:00:06,078 - freqtrade.data.converter - INFO - Missing data fillup for NXS/BTC: before: 999 - after: 1029
+2021-04-23 03:00:06,095 - freqtrade.data.converter - INFO - Missing data fillup for BAT/BTC: before: 999 - after: 1029
+2021-04-23 03:00:06,110 - freqtrade.data.converter - INFO - Missing data fillup for IOTA/BTC: before: 999 - after: 1029
+2021-04-23 03:00:06,125 - freqtrade.data.converter - INFO - Missing data fillup for XMR/BTC: before: 999 - after: 1029
+2021-04-23 03:00:09,004 - freqtrade.data.converter - INFO - Missing data fillup for XTZ/BTC: before: 999 - after: 1029
+2021-04-23 03:00:09,020 - freqtrade.data.converter - INFO - Missing data fillup for BRD/BTC: before: 999 - after: 1029
+2021-04-23 03:00:09,035 - freqtrade.data.converter - INFO - Missing data fillup for ALGO/BTC: before: 999 - after: 1029
+2021-04-23 03:00:09,051 - freqtrade.data.converter - INFO - Missing data fillup for NXS/BTC: before: 999 - after: 1029
+2021-04-23 03:00:13,612 - freqtrade.data.converter - INFO - Missing data fillup for NXS/BTC: before: 999 - after: 1029
+2021-04-23 03:00:25,173 - freqtrade.rpc.telegram - INFO - Executing handler: _profit for chat_id: 1683056719
+2021-04-23 03:00:38,148 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 03:01:38,190 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 03:02:38,230 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 03:03:38,272 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 03:04:38,313 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 03:05:06,388 - freqtrade.data.converter - INFO - Missing data fillup for XRP/BTC: before: 999 - after: 1029
+2021-04-23 03:05:06,403 - freqtrade.data.converter - INFO - Missing data fillup for BCH/BTC: before: 999 - after: 1029
+2021-04-23 03:05:06,418 - freqtrade.data.converter - INFO - Missing data fillup for ATOM/BTC: before: 999 - after: 1029
+2021-04-23 03:05:06,434 - freqtrade.data.converter - INFO - Missing data fillup for XTZ/BTC: before: 999 - after: 1029
+2021-04-23 03:05:06,449 - freqtrade.data.converter - INFO - Missing data fillup for EOS/BTC: before: 999 - after: 1029
+2021-04-23 03:05:06,464 - freqtrade.data.converter - INFO - Missing data fillup for NEO/BTC: before: 999 - after: 1029
+2021-04-23 03:05:06,479 - freqtrade.data.converter - INFO - Missing data fillup for BRD/BTC: before: 999 - after: 1029
+2021-04-23 03:05:06,494 - freqtrade.data.converter - INFO - Missing data fillup for ETH/BTC: before: 999 - after: 1029
+2021-04-23 03:05:06,510 - freqtrade.data.converter - INFO - Missing data fillup for ALGO/BTC: before: 999 - after: 1029
+2021-04-23 03:05:06,525 - freqtrade.data.converter - INFO - Missing data fillup for LTC/BTC: before: 999 - after: 1029
+2021-04-23 03:05:06,540 - freqtrade.data.converter - INFO - Missing data fillup for LINK/BTC: before: 999 - after: 1029
+2021-04-23 03:05:06,555 - freqtrade.data.converter - INFO - Missing data fillup for NXS/BTC: before: 999 - after: 1029
+2021-04-23 03:05:06,570 - freqtrade.data.converter - INFO - Missing data fillup for BAT/BTC: before: 999 - after: 1029
+2021-04-23 03:05:06,585 - freqtrade.data.converter - INFO - Missing data fillup for IOTA/BTC: before: 999 - after: 1029
+2021-04-23 03:05:06,600 - freqtrade.data.converter - INFO - Missing data fillup for XMR/BTC: before: 999 - after: 1029
+2021-04-23 03:05:09,814 - freqtrade.data.converter - INFO - Missing data fillup for ATOM/BTC: before: 999 - after: 1029
+2021-04-23 03:05:09,829 - freqtrade.data.converter - INFO - Missing data fillup for BRD/BTC: before: 999 - after: 1029
+2021-04-23 03:05:09,844 - freqtrade.data.converter - INFO - Missing data fillup for NXS/BTC: before: 999 - after: 1029
+2021-04-23 03:05:09,860 - freqtrade.data.converter - INFO - Missing data fillup for BAT/BTC: before: 999 - after: 1029
+2021-04-23 03:05:14,608 - freqtrade.data.converter - INFO - Missing data fillup for BRD/BTC: before: 999 - after: 1029
+2021-04-23 03:05:14,624 - freqtrade.data.converter - INFO - Missing data fillup for BAT/BTC: before: 999 - after: 1029
+2021-04-23 03:05:38,349 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 03:06:38,390 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 03:07:14,061 - freqtrade.freqtradebot - INFO - Executing Sell for BCH/BTC. Reason: roi
+2021-04-23 03:07:14,076 - freqtrade.wallets - INFO - Wallets synced.
+2021-04-23 03:07:14,101 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell, 'trade_id': 1, 'exchange': 'Binance', 'pair': 'BCH/BTC', 'gain': 'profit', 'limit': 0.015605, 'order_type': 'limit', 'amount': 0.667, 'open_rate': 0.014971, 'current_rate': 0.015605, 'profit_amount': 0.00040248, 'profit_ratio': 0.04026593, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 4, 23, 2, 40, 33, 621252), 'close_date': datetime.datetime(2021, 4, 23, 3, 7, 14, 100991), 'stake_currency': 'BTC', 'fiat_currency': 'BRL'}
+2021-04-23 03:07:15,348 - freqtrade.wallets - INFO - Wallets synced.
+2021-04-23 03:07:18,704 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=BCH/BTC, amount=0.66700000, open_rate=0.01497100, open_since=2021-04-23 02:40:33)
+2021-04-23 03:07:18,705 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=1, pair=BCH/BTC, amount=0.66700000, open_rate=0.01497100, open_since=2021-04-23 02:40:33) [sell]: 1.0408535e-05 BTC - rate: 0.001
+2021-04-23 03:07:18,705 - freqtrade.persistence.models - INFO - Updating trade (id=1) ...
+2021-04-23 03:07:18,705 - freqtrade.persistence.models - INFO - LIMIT_SELL has been fulfilled for Trade(id=1, pair=BCH/BTC, amount=0.66700000, open_rate=0.01497100, open_since=2021-04-23 02:40:33).
+2021-04-23 03:07:18,705 - freqtrade.persistence.models - INFO - Marking Trade(id=1, pair=BCH/BTC, amount=0.66700000, open_rate=0.01497100, open_since=closed) as closed as the trade is fulfilled and found no open orders for it.
+2021-04-23 03:07:18,722 - freqtrade.wallets - INFO - Wallets synced.
+2021-04-23 03:07:20,028 - freqtrade.freqtradebot - INFO - Pair BCH/BTC is still locked until 2021-04-23 03:10:00.
+2021-04-23 03:07:38,433 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 03:08:38,477 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 03:09:38,524 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 03:10:06,609 - freqtrade.data.converter - INFO - Missing data fillup for XRP/BTC: before: 999 - after: 1029
+2021-04-23 03:10:06,626 - freqtrade.data.converter - INFO - Missing data fillup for BCH/BTC: before: 999 - after: 1029
+2021-04-23 03:10:06,642 - freqtrade.data.converter - INFO - Missing data fillup for ATOM/BTC: before: 999 - after: 1029
+2021-04-23 03:10:06,658 - freqtrade.data.converter - INFO - Missing data fillup for XTZ/BTC: before: 999 - after: 1029
+2021-04-23 03:10:06,674 - freqtrade.data.converter - INFO - Missing data fillup for EOS/BTC: before: 999 - after: 1029
+2021-04-23 03:10:06,689 - freqtrade.data.converter - INFO - Missing data fillup for NEO/BTC: before: 999 - after: 1029
+2021-04-23 03:10:06,705 - freqtrade.data.converter - INFO - Missing data fillup for BRD/BTC: before: 999 - after: 1029
+2021-04-23 03:10:06,720 - freqtrade.data.converter - INFO - Missing data fillup for ETH/BTC: before: 999 - after: 1029
+2021-04-23 03:10:06,736 - freqtrade.data.converter - INFO - Missing data fillup for ALGO/BTC: before: 999 - after: 1029
+2021-04-23 03:10:06,752 - freqtrade.data.converter - INFO - Missing data fillup for LTC/BTC: before: 999 - after: 1029
+2021-04-23 03:10:06,767 - freqtrade.data.converter - INFO - Missing data fillup for LINK/BTC: before: 999 - after: 1029
+2021-04-23 03:10:06,782 - freqtrade.data.converter - INFO - Missing data fillup for NXS/BTC: before: 999 - after: 1029
+2021-04-23 03:10:06,798 - freqtrade.data.converter - INFO - Missing data fillup for BAT/BTC: before: 999 - after: 1029
+2021-04-23 03:10:06,813 - freqtrade.data.converter - INFO - Missing data fillup for IOTA/BTC: before: 999 - after: 1029
+2021-04-23 03:10:06,829 - freqtrade.data.converter - INFO - Missing data fillup for XMR/BTC: before: 999 - after: 1029
+2021-04-23 03:10:09,817 - freqtrade.data.converter - INFO - Missing data fillup for ATOM/BTC: before: 999 - after: 1029
+2021-04-23 03:10:09,834 - freqtrade.data.converter - INFO - Missing data fillup for XTZ/BTC: before: 999 - after: 1029
+2021-04-23 03:10:09,849 - freqtrade.data.converter - INFO - Missing data fillup for BRD/BTC: before: 999 - after: 1029
+2021-04-23 03:10:09,864 - freqtrade.data.converter - INFO - Missing data fillup for NXS/BTC: before: 999 - after: 1029
+2021-04-23 03:10:09,880 - freqtrade.data.converter - INFO - Missing data fillup for IOTA/BTC: before: 999 - after: 1029
+2021-04-23 03:10:14,814 - freqtrade.data.converter - INFO - Missing data fillup for BRD/BTC: before: 999 - after: 1029
+2021-04-23 03:10:38,566 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 03:11:38,614 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 03:12:08,924 - freqtrade.rpc.telegram - INFO - Executing handler: _profit for chat_id: 1683056719
+2021-04-23 03:12:38,662 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 03:13:38,709 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 03:14:38,758 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 03:15:06,911 - freqtrade.data.converter - INFO - Missing data fillup for XRP/BTC: before: 999 - after: 1029
+2021-04-23 03:15:06,926 - freqtrade.data.converter - INFO - Missing data fillup for BCH/BTC: before: 999 - after: 1029
+2021-04-23 03:15:06,941 - freqtrade.data.converter - INFO - Missing data fillup for ATOM/BTC: before: 999 - after: 1029
+2021-04-23 03:15:06,956 - freqtrade.data.converter - INFO - Missing data fillup for XTZ/BTC: before: 999 - after: 1029
+2021-04-23 03:15:06,972 - freqtrade.data.converter - INFO - Missing data fillup for EOS/BTC: before: 999 - after: 1029
+2021-04-23 03:15:06,987 - freqtrade.data.converter - INFO - Missing data fillup for NEO/BTC: before: 999 - after: 1029
+2021-04-23 03:15:07,002 - freqtrade.data.converter - INFO - Missing data fillup for BRD/BTC: before: 999 - after: 1029
+2021-04-23 03:15:07,017 - freqtrade.data.converter - INFO - Missing data fillup for ETH/BTC: before: 999 - after: 1029
+2021-04-23 03:15:07,032 - freqtrade.data.converter - INFO - Missing data fillup for ALGO/BTC: before: 999 - after: 1029
+2021-04-23 03:15:07,046 - freqtrade.data.converter - INFO - Missing data fillup for LTC/BTC: before: 999 - after: 1029
+2021-04-23 03:15:07,061 - freqtrade.data.converter - INFO - Missing data fillup for LINK/BTC: before: 999 - after: 1029
+2021-04-23 03:15:07,075 - freqtrade.data.converter - INFO - Missing data fillup for NXS/BTC: before: 999 - after: 1029
+2021-04-23 03:15:07,090 - freqtrade.data.converter - INFO - Missing data fillup for BAT/BTC: before: 999 - after: 1029
+2021-04-23 03:15:07,105 - freqtrade.data.converter - INFO - Missing data fillup for IOTA/BTC: before: 999 - after: 1029
+2021-04-23 03:15:07,120 - freqtrade.data.converter - INFO - Missing data fillup for XMR/BTC: before: 999 - after: 1029
+2021-04-23 03:15:10,246 - freqtrade.data.converter - INFO - Missing data fillup for XTZ/BTC: before: 999 - after: 1029
+2021-04-23 03:15:10,261 - freqtrade.data.converter - INFO - Missing data fillup for EOS/BTC: before: 999 - after: 1029
+2021-04-23 03:15:10,275 - freqtrade.data.converter - INFO - Missing data fillup for BRD/BTC: before: 999 - after: 1029
+2021-04-23 03:15:10,290 - freqtrade.data.converter - INFO - Missing data fillup for ALGO/BTC: before: 999 - after: 1029
+2021-04-23 03:15:10,305 - freqtrade.data.converter - INFO - Missing data fillup for NXS/BTC: before: 999 - after: 1029
+2021-04-23 03:15:10,320 - freqtrade.data.converter - INFO - Missing data fillup for XMR/BTC: before: 999 - after: 1029
+2021-04-23 03:15:38,801 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 03:16:38,849 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 03:17:38,896 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 03:18:38,945 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 03:19:31,593 - freqtrade.rpc.telegram - INFO - Executing handler: _status for chat_id: 1683056719
+2021-04-23 03:19:31,594 - freqtrade.rpc.telegram - INFO - Executing handler: _status_table for chat_id: 1683056719
+2021-04-23 03:19:38,993 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 03:19:39,626 - freqtrade.rpc.telegram - INFO - Executing handler: _profit for chat_id: 1683056719
+2021-04-23 03:20:07,123 - freqtrade.data.converter - INFO - Missing data fillup for XRP/BTC: before: 999 - after: 1029
+2021-04-23 03:20:07,137 - freqtrade.data.converter - INFO - Missing data fillup for BCH/BTC: before: 999 - after: 1029
+2021-04-23 03:20:07,152 - freqtrade.data.converter - INFO - Missing data fillup for ATOM/BTC: before: 999 - after: 1029
+2021-04-23 03:20:07,167 - freqtrade.data.converter - INFO - Missing data fillup for XTZ/BTC: before: 999 - after: 1029
+2021-04-23 03:20:07,182 - freqtrade.data.converter - INFO - Missing data fillup for EOS/BTC: before: 999 - after: 1029
+2021-04-23 03:20:07,198 - freqtrade.data.converter - INFO - Missing data fillup for NEO/BTC: before: 999 - after: 1029
+2021-04-23 03:20:07,213 - freqtrade.data.converter - INFO - Missing data fillup for BRD/BTC: before: 999 - after: 1029
+2021-04-23 03:20:07,229 - freqtrade.data.converter - INFO - Missing data fillup for ETH/BTC: before: 999 - after: 1029
+2021-04-23 03:20:07,245 - freqtrade.data.converter - INFO - Missing data fillup for ALGO/BTC: before: 999 - after: 1029
+2021-04-23 03:20:07,261 - freqtrade.data.converter - INFO - Missing data fillup for LTC/BTC: before: 999 - after: 1029
+2021-04-23 03:20:07,277 - freqtrade.data.converter - INFO - Missing data fillup for LINK/BTC: before: 999 - after: 1029
+2021-04-23 03:20:07,293 - freqtrade.data.converter - INFO - Missing data fillup for NXS/BTC: before: 999 - after: 1029
+2021-04-23 03:20:07,309 - freqtrade.data.converter - INFO - Missing data fillup for BAT/BTC: before: 999 - after: 1029
+2021-04-23 03:20:07,325 - freqtrade.data.converter - INFO - Missing data fillup for IOTA/BTC: before: 999 - after: 1029
+2021-04-23 03:20:07,340 - freqtrade.data.converter - INFO - Missing data fillup for XMR/BTC: before: 999 - after: 1029
+2021-04-23 03:20:09,891 - freqtrade.data.converter - INFO - Missing data fillup for BCH/BTC: before: 999 - after: 1029
+2021-04-23 03:20:09,907 - freqtrade.data.converter - INFO - Missing data fillup for BRD/BTC: before: 999 - after: 1029
+2021-04-23 03:20:09,922 - freqtrade.data.converter - INFO - Missing data fillup for NXS/BTC: before: 999 - after: 1029
+2021-04-23 03:20:09,938 - freqtrade.data.converter - INFO - Missing data fillup for XMR/BTC: before: 999 - after: 1029
+2021-04-23 03:20:39,052 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 03:21:39,098 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 03:22:39,145 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 21:40:22,153 - freqtrade.loggers - INFO - Verbosity set to 0
+2021-04-23 21:40:22,154 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2021-04-23 21:40:22,154 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2021-04-23 21:40:22,154 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2021-04-23 21:40:22,154 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2021-04-23 21:40:22,154 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2021-04-23 21:40:22,155 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2021-04-23 21:40:22,156 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2021-04-23 21:40:22,156 - freqtrade.configuration.check_exchange - INFO - Checking exchange...
+2021-04-23 21:40:22,156 - freqtrade.configuration.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2021-04-23 21:40:22,156 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2021-04-23 21:40:22,157 - freqtrade.freqtradebot - INFO - Starting freqtrade 2021.3
+2021-04-23 21:40:22,186 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy SampleStrategy from '/freqtrade/user_data/strategies/sample_strategy.py'...
+2021-04-23 21:40:22,187 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'timeframe' with value in config file: 5m.
+2021-04-23 21:40:22,187 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: BTC.
+2021-04-23 21:40:22,187 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: 0.01.
+2021-04-23 21:40:22,187 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'buy': 10, 'sell': 30}.
+2021-04-23 21:40:22,187 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'use_sell_signal' with value in config file: True.
+2021-04-23 21:40:22,187 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'sell_profit_only' with value in config file: False.
+2021-04-23 21:40:22,188 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'ignore_roi_if_buy_signal' with value in config file: False.
+2021-04-23 21:40:22,188 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'60': 0.01, '30': 0.02, '0': 0.04}
+2021-04-23 21:40:22,188 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2021-04-23 21:40:22,188 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.1
+2021-04-23 21:40:22,188 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2021-04-23 21:40:22,188 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2021-04-23 21:40:22,188 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2021-04-23 21:40:22,189 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2021-04-23 21:40:22,189 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: False
+2021-04-23 21:40:22,189 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'buy': 'limit', 'sell': 'limit', 'stoploss': 'market', 'stoploss_on_exchange': False}
+2021-04-23 21:40:22,189 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'buy': 'gtc', 'sell': 'gtc'}
+2021-04-23 21:40:22,189 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: BTC
+2021-04-23 21:40:22,189 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: 0.01
+2021-04-23 21:40:22,189 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 30
+2021-04-23 21:40:22,189 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'buy': 10, 'sell': 30}
+2021-04-23 21:40:22,189 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_sell_signal: True
+2021-04-23 21:40:22,189 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using sell_profit_only: False
+2021-04-23 21:40:22,189 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_buy_signal: False
+2021-04-23 21:40:22,189 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using sell_profit_offset: 0.0
+2021-04-23 21:40:22,190 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2021-04-23 21:40:22,190 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2021-04-23 21:40:22,190 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2021-04-23 21:40:22,192 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2021-04-23 21:40:22,192 - freqtrade.exchange.exchange - INFO - Using CCXT 1.43.89
+2021-04-23 21:40:22,192 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'enableRateLimit': True}
+2021-04-23 21:40:22,197 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'enableRateLimit': True, 'rateLimit': 200}
+2021-04-23 21:40:22,202 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2021-04-23 21:40:23,669 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2021-04-23 21:40:23,708 - freqtrade.wallets - INFO - Wallets synced.
+2021-04-23 21:40:23,712 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist StaticPairList from '/freqtrade/freqtrade/plugins/pairlist/StaticPairList.py'...
+2021-04-23 21:40:23,712 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2021-04-23 21:40:23,903 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.telegram ...
+2021-04-23 21:40:24,546 - apscheduler.scheduler - INFO - Scheduler started
+2021-04-23 21:40:25,493 - freqtrade.rpc.telegram - INFO - rpc.telegram is listening for following commands: [['status'], ['profit'], ['balance'], ['start'], ['stop'], ['forcesell'], ['forcebuy'], ['trades'], ['delete'], ['performance'], ['stats'], ['daily'], ['count'], ['locks'], ['unlock', 'delete_locks'], ['reload_config', 'reload_conf'], ['show_config', 'show_conf'], ['stopbuy'], ['whitelist'], ['blacklist'], ['logs'], ['edge'], ['help'], ['version']]
+2021-04-23 21:40:25,493 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2021-04-23 21:40:26,377 - freqtrade.worker - INFO - Changing state to: RUNNING
+2021-04-23 21:40:26,377 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': 'Dry run is enabled. All trades are simulated.'}
+2021-04-23 21:40:26,758 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `binance`\n*Stake per trade:* `0.01 BTC`\n*Minimum ROI:* `{'60': 0.01, '30': 0.02, '0': 0.04}`\n*Stoploss:* `-0.1`\n*Timeframe:* `5m`\n*Strategy:* `SampleStrategy`"}
+2021-04-23 21:40:27,161 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for BTC pairs to buy and sell based on [{'StaticPairList': 'StaticPairList'}]"}
+2021-04-23 21:40:27,557 - freqtrade.persistence.models - INFO - Found open trade: Trade(id=4, pair=ETH/BTC, amount=0.22100000, open_rate=0.04505200, open_since=2021-04-23 02:49:28)
+2021-04-23 21:40:27,557 - freqtrade.persistence.models - INFO - Found open trade: Trade(id=5, pair=BAT/BTC, amount=529.10052910, open_rate=0.00001890, open_since=2021-04-23 02:53:08)
+2021-04-23 21:40:31,159 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2021-04-23 21:40:31,159 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2021-04-23 21:40:31,788 - freqtrade.freqtradebot - INFO - Executing Sell for ETH/BTC. Reason: roi
+2021-04-23 21:40:31,818 - freqtrade.wallets - INFO - Wallets synced.
+2021-04-23 21:40:31,854 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell, 'trade_id': 4, 'exchange': 'Binance', 'pair': 'ETH/BTC', 'gain': 'profit', 'limit': 0.046116, 'order_type': 'limit', 'amount': 0.221, 'open_rate': 0.045052, 'current_rate': 0.046116, 'profit_amount': 0.000215, 'profit_ratio': 0.02157196, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 4, 23, 2, 49, 28, 665275), 'close_date': datetime.datetime(2021, 4, 23, 21, 40, 31, 854756), 'stake_currency': 'BTC', 'fiat_currency': 'BRL'}
+2021-04-23 21:40:32,641 - freqtrade.freqtradebot - INFO - Executing Sell for BAT/BTC. Reason: roi
+2021-04-23 21:40:32,656 - freqtrade.wallets - INFO - Wallets synced.
+2021-04-23 21:40:32,684 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell, 'trade_id': 5, 'exchange': 'Binance', 'pair': 'BAT/BTC', 'gain': 'profit', 'limit': 2.232e-05, 'order_type': 'limit', 'amount': 529.1005291005291, 'open_rate': 1.89e-05, 'current_rate': 2.232e-05, 'profit_amount': 0.00178771, 'profit_ratio': 0.17859284, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 4, 23, 2, 53, 8, 783252), 'close_date': datetime.datetime(2021, 4, 23, 21, 40, 32, 684321), 'stake_currency': 'BTC', 'fiat_currency': 'BRL'}
+2021-04-23 21:40:33,076 - freqtrade.wallets - INFO - Wallets synced.
+2021-04-23 21:40:33,129 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 21:40:33,422 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=4, pair=ETH/BTC, amount=0.22100000, open_rate=0.04505200, open_since=2021-04-23 02:49:28)
+2021-04-23 21:40:33,423 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=4, pair=ETH/BTC, amount=0.22100000, open_rate=0.04505200, open_since=2021-04-23 02:49:28) [sell]: 1.0191636e-05 BTC - rate: 0.001
+2021-04-23 21:40:33,424 - freqtrade.persistence.models - INFO - Updating trade (id=4) ...
+2021-04-23 21:40:33,424 - freqtrade.persistence.models - INFO - LIMIT_SELL has been fulfilled for Trade(id=4, pair=ETH/BTC, amount=0.22100000, open_rate=0.04505200, open_since=2021-04-23 02:49:28).
+2021-04-23 21:40:33,424 - freqtrade.persistence.models - INFO - Marking Trade(id=4, pair=ETH/BTC, amount=0.22100000, open_rate=0.04505200, open_since=closed) as closed as the trade is fulfilled and found no open orders for it.
+2021-04-23 21:40:33,440 - freqtrade.wallets - INFO - Wallets synced.
+2021-04-23 21:40:33,440 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=5, pair=BAT/BTC, amount=529.10052910, open_rate=0.00001890, open_since=2021-04-23 02:53:08)
+2021-04-23 21:40:33,441 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=5, pair=BAT/BTC, amount=529.10052910, open_rate=0.00001890, open_since=2021-04-23 02:53:08) [sell]: 1.1809524e-05 BTC - rate: 0.001
+2021-04-23 21:40:33,442 - freqtrade.persistence.models - INFO - Updating trade (id=5) ...
+2021-04-23 21:40:33,442 - freqtrade.persistence.models - INFO - LIMIT_SELL has been fulfilled for Trade(id=5, pair=BAT/BTC, amount=529.10052910, open_rate=0.00001890, open_since=2021-04-23 02:53:08).
+2021-04-23 21:40:33,442 - freqtrade.persistence.models - INFO - Marking Trade(id=5, pair=BAT/BTC, amount=529.10052910, open_rate=0.00001890, open_since=closed) as closed as the trade is fulfilled and found no open orders for it.
+2021-04-23 21:40:33,458 - freqtrade.wallets - INFO - Wallets synced.
+2021-04-23 21:40:33,470 - freqtrade.freqtradebot - INFO - Pair BAT/BTC is still locked until 2021-04-23 21:45:00.
+2021-04-23 21:40:33,483 - freqtrade.freqtradebot - INFO - Pair ETH/BTC is still locked until 2021-04-23 21:45:00.
+2021-04-23 21:41:33,180 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 21:42:33,239 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 21:43:33,299 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 21:44:23,065 - freqtrade.rpc.telegram - INFO - Executing handler: _profit for chat_id: 1683056719
+2021-04-23 21:44:28,447 - freqtrade.rpc.telegram - INFO - Executing handler: _stop for chat_id: 1683056719
+2021-04-23 21:44:33,357 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 21:44:33,358 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'stopped'}
+2021-04-23 21:44:33,754 - freqtrade.worker - INFO - Changing state to: STOPPED
+2021-04-23 21:44:34,352 - freqtrade.rpc.telegram - INFO - Executing handler: _start for chat_id: 1683056719
+2021-04-23 21:44:38,760 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='STOPPED'
+2021-04-23 21:44:38,761 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2021-04-23 21:44:39,169 - freqtrade.worker - INFO - Changing state to: RUNNING
+2021-04-23 21:44:39,169 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': 'Dry run is enabled. All trades are simulated.'}
+2021-04-23 21:44:39,564 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `binance`\n*Stake per trade:* `0.01 BTC`\n*Minimum ROI:* `{'60': 0.01, '30': 0.02, '0': 0.04}`\n*Stoploss:* `-0.1`\n*Timeframe:* `5m`\n*Strategy:* `SampleStrategy`"}
+2021-04-23 21:44:39,990 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for BTC pairs to buy and sell based on [{'StaticPairList': 'StaticPairList'}]"}
+2021-04-23 21:44:45,391 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 21:45:45,444 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 21:46:32,859 - freqtrade.rpc.telegram - INFO - Executing handler: _help for chat_id: 1683056719
+2021-04-23 21:46:35,404 - freqtrade.rpc.telegram - INFO - Executing handler: _performance for chat_id: 1683056719
+2021-04-23 21:46:44,709 - freqtrade.rpc.telegram - INFO - Executing handler: _daily for chat_id: 1683056719
+2021-04-23 21:46:45,502 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 21:47:45,560 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 21:48:45,610 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 21:49:45,665 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 21:50:45,718 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 21:51:45,777 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 21:52:45,835 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 21:53:45,886 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 21:54:45,945 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 21:55:45,998 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 21:56:46,056 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 21:57:46,114 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 21:58:46,172 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 21:59:46,230 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:00:46,282 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:01:46,338 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:02:46,395 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:03:46,453 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:04:46,512 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:05:46,560 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:06:46,615 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:07:46,673 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:08:46,732 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:09:46,790 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:10:46,841 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:11:46,899 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:12:46,957 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:13:47,015 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:14:47,065 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:15:47,114 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:16:47,172 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:17:47,230 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:18:47,288 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:19:47,347 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:20:23,068 - freqtrade.rpc.telegram - INFO - Executing handler: _count for chat_id: 1683056719
+2021-04-23 22:20:24,015 - freqtrade.rpc.telegram - INFO - Executing handler: _start for chat_id: 1683056719
+2021-04-23 22:20:47,397 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:21:47,455 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:22:47,512 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:23:47,570 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:24:47,629 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:25:47,680 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:26:47,738 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:27:47,796 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:28:47,853 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:29:47,911 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:30:47,962 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:31:48,019 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:32:48,077 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:33:48,135 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:34:48,193 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:35:48,244 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:36:48,302 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:37:48,360 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:38:48,418 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:39:48,475 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:40:48,527 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:41:48,585 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:42:48,643 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:43:48,702 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:44:48,761 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:45:48,812 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:46:48,870 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:47:48,928 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:48:48,986 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:49:49,045 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:50:49,097 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:51:49,155 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:52:49,213 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:53:49,271 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:54:49,329 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:55:49,380 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:56:49,439 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:57:49,498 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:58:49,556 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 22:59:49,613 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 23:00:49,665 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 23:01:49,724 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 23:02:49,782 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 23:03:49,840 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 23:04:49,898 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 23:05:49,952 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 23:06:50,010 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 23:07:50,068 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 23:08:50,126 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 23:09:50,180 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 23:10:50,233 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-23 23:11:50,291 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 01:24:07,380 - freqtrade.loggers - INFO - Verbosity set to 0
+2021-04-24 01:24:07,380 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2021-04-24 01:24:07,381 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2021-04-24 01:24:07,381 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2021-04-24 01:24:07,381 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2021-04-24 01:24:07,381 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2021-04-24 01:24:07,381 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2021-04-24 01:24:07,382 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2021-04-24 01:24:07,383 - freqtrade.configuration.check_exchange - INFO - Checking exchange...
+2021-04-24 01:24:07,383 - freqtrade.configuration.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2021-04-24 01:24:07,383 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2021-04-24 01:24:07,383 - freqtrade.freqtradebot - INFO - Starting freqtrade 2021.3
+2021-04-24 01:24:07,414 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy SampleStrategy from '/freqtrade/user_data/strategies/sample_strategy.py'...
+2021-04-24 01:24:07,414 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'timeframe' with value in config file: 5m.
+2021-04-24 01:24:07,414 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: BTC.
+2021-04-24 01:24:07,414 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: 0.0002.
+2021-04-24 01:24:07,414 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'buy': 10, 'sell': 30}.
+2021-04-24 01:24:07,415 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'use_sell_signal' with value in config file: True.
+2021-04-24 01:24:07,415 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'sell_profit_only' with value in config file: False.
+2021-04-24 01:24:07,415 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'ignore_roi_if_buy_signal' with value in config file: False.
+2021-04-24 01:24:07,415 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'60': 0.01, '30': 0.02, '0': 0.04}
+2021-04-24 01:24:07,415 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2021-04-24 01:24:07,415 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.1
+2021-04-24 01:24:07,415 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2021-04-24 01:24:07,415 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2021-04-24 01:24:07,415 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2021-04-24 01:24:07,415 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2021-04-24 01:24:07,415 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: False
+2021-04-24 01:24:07,416 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'buy': 'limit', 'sell': 'limit', 'stoploss': 'market', 'stoploss_on_exchange': False}
+2021-04-24 01:24:07,416 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'buy': 'gtc', 'sell': 'gtc'}
+2021-04-24 01:24:07,416 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: BTC
+2021-04-24 01:24:07,416 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: 0.0002
+2021-04-24 01:24:07,416 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 30
+2021-04-24 01:24:07,416 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'buy': 10, 'sell': 30}
+2021-04-24 01:24:07,416 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_sell_signal: True
+2021-04-24 01:24:07,416 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using sell_profit_only: False
+2021-04-24 01:24:07,416 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_buy_signal: False
+2021-04-24 01:24:07,416 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using sell_profit_offset: 0.0
+2021-04-24 01:24:07,416 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2021-04-24 01:24:07,417 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2021-04-24 01:24:07,417 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2021-04-24 01:24:07,419 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2021-04-24 01:24:07,419 - freqtrade.exchange.exchange - INFO - Using CCXT 1.43.89
+2021-04-24 01:24:07,419 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'enableRateLimit': True}
+2021-04-24 01:24:07,424 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'enableRateLimit': True, 'rateLimit': 200}
+2021-04-24 01:24:07,430 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2021-04-24 01:24:08,872 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2021-04-24 01:24:08,911 - freqtrade.wallets - INFO - Wallets synced.
+2021-04-24 01:24:08,914 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist StaticPairList from '/freqtrade/freqtrade/plugins/pairlist/StaticPairList.py'...
+2021-04-24 01:24:08,914 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2021-04-24 01:24:09,098 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.telegram ...
+2021-04-24 01:24:09,810 - apscheduler.scheduler - INFO - Scheduler started
+2021-04-24 01:24:10,831 - freqtrade.rpc.telegram - INFO - rpc.telegram is listening for following commands: [['status'], ['profit'], ['balance'], ['start'], ['stop'], ['forcesell'], ['forcebuy'], ['trades'], ['delete'], ['performance'], ['stats'], ['daily'], ['count'], ['locks'], ['unlock', 'delete_locks'], ['reload_config', 'reload_conf'], ['show_config', 'show_conf'], ['stopbuy'], ['whitelist'], ['blacklist'], ['logs'], ['edge'], ['help'], ['version']]
+2021-04-24 01:24:10,831 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2021-04-24 01:24:11,684 - freqtrade.worker - INFO - Changing state to: RUNNING
+2021-04-24 01:24:11,684 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': 'Dry run is enabled. All trades are simulated.'}
+2021-04-24 01:24:12,102 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `binance`\n*Stake per trade:* `0.0002 BTC`\n*Minimum ROI:* `{'60': 0.01, '30': 0.02, '0': 0.04}`\n*Stoploss:* `-0.1`\n*Timeframe:* `5m`\n*Strategy:* `SampleStrategy`"}
+2021-04-24 01:24:12,502 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for BTC pairs to buy and sell based on [{'StaticPairList': 'StaticPairList'}]"}
+2021-04-24 01:24:17,090 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2021-04-24 01:24:17,090 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2021-04-24 01:24:17,882 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 01:25:17,928 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 01:26:17,985 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 01:27:18,043 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 01:28:18,101 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 01:29:18,158 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 01:30:18,210 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 01:31:18,268 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 01:32:18,321 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 01:33:18,379 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 01:34:18,437 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 01:35:18,488 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 01:36:18,546 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 01:37:18,603 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 01:38:18,658 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 01:39:18,716 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 01:40:18,766 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 01:41:18,821 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 01:42:18,878 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 01:43:18,936 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 01:44:18,993 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 01:45:19,043 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 01:46:19,100 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 01:47:19,158 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 01:48:19,215 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 01:49:19,272 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 01:50:19,324 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 01:51:19,379 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 01:52:19,436 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 01:53:19,494 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 01:54:19,551 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 01:55:19,602 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 01:56:19,660 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 01:57:19,717 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 01:58:19,774 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 01:59:19,832 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:00:19,883 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:01:19,940 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:02:19,998 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:03:20,055 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:04:20,112 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:05:20,165 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:06:20,222 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:07:20,279 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:08:20,337 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:09:20,394 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:10:20,447 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:11:20,504 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:12:20,561 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:13:20,616 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:14:20,673 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:15:20,726 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:16:20,783 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:17:20,840 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:18:20,898 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:19:20,955 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:20:21,004 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:21:21,062 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:22:21,119 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:23:21,176 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:24:21,232 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:25:14,608 - freqtrade.wallets - INFO - Wallets synced.
+2021-04-24 02:25:14,609 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 0.0002 ...
+2021-04-24 02:25:14,609 - freqtrade.freqtradebot - INFO - Executing Buy for BRD/BTC
+2021-04-24 02:25:14,610 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2021-04-24 02:25:15,094 - freqtrade.wallets - INFO - Wallets synced.
+2021-04-24 02:25:15,095 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 6, 'type': buy, 'exchange': 'Binance', 'pair': 'BRD/BTC', 'limit': 5.46e-06, 'order_type': 'limit', 'stake_amount': 0.0002, 'stake_currency': 'BTC', 'fiat_currency': 'BRL', 'amount': 36.63003663003663, 'open_date': datetime.datetime(2021, 4, 24, 2, 25, 15, 77091), 'current_rate': 5.46e-06}
+2021-04-24 02:25:16,583 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=6, pair=BRD/BTC, amount=36.63003663, open_rate=0.00000546, open_since=2021-04-24 02:25:15)
+2021-04-24 02:25:16,589 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=6, pair=BRD/BTC, amount=36.63003663, open_rate=0.00000546, open_since=2021-04-24 02:25:15) [buy]: 2e-07 BTC - rate: 0.001
+2021-04-24 02:25:16,589 - freqtrade.persistence.models - INFO - Updating trade (id=6) ...
+2021-04-24 02:25:16,589 - freqtrade.persistence.models - INFO - LIMIT_BUY has been fulfilled for Trade(id=6, pair=BRD/BTC, amount=36.63003663, open_rate=0.00000546, open_since=2021-04-24 02:25:15).
+2021-04-24 02:25:21,277 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:26:21,330 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:27:21,382 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:28:21,430 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:29:21,479 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:30:21,521 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:31:21,573 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:32:21,626 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:33:21,678 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:34:21,730 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:35:21,770 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:36:21,823 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:37:21,876 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:38:21,928 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:39:21,981 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:40:22,025 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:41:22,075 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:42:22,127 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:43:22,179 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:44:22,231 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:45:22,275 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:46:22,328 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:47:22,381 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:48:22,429 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:49:22,482 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:50:22,523 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:51:22,576 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:52:22,625 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:53:22,677 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:54:22,728 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:55:22,771 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:56:22,823 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:57:18,521 - freqtrade.freqtradebot - INFO - Executing Sell for BRD/BTC. Reason: roi
+2021-04-24 02:57:18,536 - freqtrade.wallets - INFO - Wallets synced.
+2021-04-24 02:57:18,561 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': sell, 'trade_id': 6, 'exchange': 'Binance', 'pair': 'BRD/BTC', 'gain': 'profit', 'limit': 5.62e-06, 'order_type': 'limit', 'amount': 36.63003663003663, 'open_rate': 5.46e-06, 'current_rate': 5.62e-06, 'profit_amount': 5.45e-06, 'profit_ratio': 0.02724748, 'sell_reason': 'roi', 'open_date': datetime.datetime(2021, 4, 24, 2, 25, 15, 77091), 'close_date': datetime.datetime(2021, 4, 24, 2, 57, 18, 561686), 'stake_currency': 'BTC', 'fiat_currency': 'BRL'}
+2021-04-24 02:57:19,439 - freqtrade.wallets - INFO - Wallets synced.
+2021-04-24 02:57:22,875 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:57:23,182 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=6, pair=BRD/BTC, amount=36.63003663, open_rate=0.00000546, open_since=2021-04-24 02:25:15)
+2021-04-24 02:57:23,185 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=6, pair=BRD/BTC, amount=36.63003663, open_rate=0.00000546, open_since=2021-04-24 02:25:15) [sell]: 2.0586081e-07 BTC - rate: 0.001
+2021-04-24 02:57:23,185 - freqtrade.persistence.models - INFO - Updating trade (id=6) ...
+2021-04-24 02:57:23,185 - freqtrade.persistence.models - INFO - LIMIT_SELL has been fulfilled for Trade(id=6, pair=BRD/BTC, amount=36.63003663, open_rate=0.00000546, open_since=2021-04-24 02:25:15).
+2021-04-24 02:57:23,185 - freqtrade.persistence.models - INFO - Marking Trade(id=6, pair=BRD/BTC, amount=36.63003663, open_rate=0.00000546, open_since=closed) as closed as the trade is fulfilled and found no open orders for it.
+2021-04-24 02:57:23,199 - freqtrade.wallets - INFO - Wallets synced.
+2021-04-24 02:57:23,224 - freqtrade.freqtradebot - INFO - Pair BRD/BTC is still locked until 2021-04-24 03:00:00.
+2021-04-24 02:58:22,932 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 02:59:22,989 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:00:23,039 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:01:23,092 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:02:23,149 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:03:23,206 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:04:23,264 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:05:23,314 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:06:23,372 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:07:23,429 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:08:08,589 - freqtrade.rpc.telegram - INFO - Executing handler: _profit for chat_id: 1683056719
+2021-04-24 03:08:23,486 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:09:23,541 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:10:23,589 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:11:23,647 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:12:23,705 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:13:23,762 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:14:23,818 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:15:23,866 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:16:23,923 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:17:23,980 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:18:24,037 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:19:24,095 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:20:24,147 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:21:24,205 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:22:24,257 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:23:24,313 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:24:24,363 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:25:24,413 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:26:24,471 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:27:24,528 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:28:24,585 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:29:24,642 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:30:24,695 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:31:24,752 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:32:24,803 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:33:24,857 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:34:24,914 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:35:24,966 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:36:25,024 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:37:25,081 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:38:25,138 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:39:25,196 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:40:25,247 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:41:25,301 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:42:25,355 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:43:25,413 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:44:25,470 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:45:25,523 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:46:25,577 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:47:25,628 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:48:25,685 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:49:25,739 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:50:25,791 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:51:25,848 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:52:25,905 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:53:25,963 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:54:26,020 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:55:26,068 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:56:26,125 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:57:26,183 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:58:26,240 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 03:59:26,298 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:00:26,346 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:01:26,404 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:02:26,461 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:03:26,519 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:04:26,576 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:05:26,622 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:06:26,677 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:07:26,735 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:08:26,791 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:09:26,848 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:10:26,898 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:11:26,955 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:12:27,013 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:13:27,070 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:14:27,128 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:15:27,176 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:16:27,233 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:17:27,291 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:18:27,348 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:19:27,402 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:20:27,451 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:21:27,508 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:22:27,565 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:23:27,622 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:24:27,678 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:25:27,728 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:26:27,783 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:27:27,841 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:28:27,898 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:29:27,953 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:30:28,001 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:31:28,058 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:32:28,116 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:33:28,168 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:34:28,221 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:35:28,272 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:36:28,330 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:37:28,387 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:38:28,444 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:39:28,502 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:40:28,553 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:41:28,607 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:42:28,664 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:43:28,722 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:44:28,779 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:45:28,829 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:46:28,886 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:47:28,943 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:48:29,001 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:49:29,055 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:50:29,108 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:51:29,163 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:52:29,220 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:53:29,277 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:54:29,334 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:55:29,387 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:56:29,444 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:57:29,501 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:58:29,558 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 04:59:29,611 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 05:00:29,661 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 05:01:29,717 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 05:02:29,773 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 05:03:29,823 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 05:04:29,880 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 05:05:29,931 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 05:06:29,984 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 05:07:30,042 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 05:08:30,100 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 05:09:30,155 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 05:10:30,207 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 05:11:30,265 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 05:12:30,323 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 05:13:30,381 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 05:14:30,439 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 05:15:30,486 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 05:16:30,544 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 05:17:30,602 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 05:18:30,660 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 05:19:30,718 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 05:20:30,769 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 05:21:30,827 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 05:22:30,885 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 05:23:30,942 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 05:24:30,999 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 05:25:31,047 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 05:26:31,105 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 05:27:31,163 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 05:28:31,220 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 05:29:31,278 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 05:30:31,327 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 05:31:31,385 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 05:32:31,443 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 05:33:31,501 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 05:34:31,559 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 05:35:31,608 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 05:36:31,658 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 05:37:31,706 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 05:38:31,765 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 16:59:50,614 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair LINK/BTC due to ExchangeNotAvailable. Message: binance GET https://api.binance.com/api/v3/klines?symbol=LINKBTC&interval=5m&limit=1000"
+2021-04-24 16:59:50,614 - freqtrade.exchange.common - WARNING - retrying _async_get_candle_history() still for 4 times
+2021-04-24 16:59:50,614 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair ETH/BTC due to ExchangeNotAvailable. Message: binance GET https://api.binance.com/api/v3/klines?symbol=ETHBTC&interval=5m&limit=1000"
+2021-04-24 16:59:50,614 - freqtrade.exchange.common - WARNING - retrying _async_get_candle_history() still for 4 times
+2021-04-24 16:59:50,614 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair IOTA/BTC due to ExchangeNotAvailable. Message: binance GET https://api.binance.com/api/v3/klines?symbol=IOTABTC&interval=5m&limit=1000"
+2021-04-24 16:59:50,615 - freqtrade.exchange.common - WARNING - retrying _async_get_candle_history() still for 4 times
+2021-04-24 16:59:50,615 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair EOS/BTC due to ExchangeNotAvailable. Message: binance GET https://api.binance.com/api/v3/klines?symbol=EOSBTC&interval=5m&limit=1000"
+2021-04-24 16:59:50,615 - freqtrade.exchange.common - WARNING - retrying _async_get_candle_history() still for 4 times
+2021-04-24 16:59:50,615 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair ALGO/BTC due to ExchangeNotAvailable. Message: binance GET https://api.binance.com/api/v3/klines?symbol=ALGOBTC&interval=5m&limit=1000"
+2021-04-24 16:59:50,615 - freqtrade.exchange.common - WARNING - retrying _async_get_candle_history() still for 4 times
+2021-04-24 16:59:50,615 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair ATOM/BTC due to ExchangeNotAvailable. Message: binance GET https://api.binance.com/api/v3/klines?symbol=ATOMBTC&interval=5m&limit=1000"
+2021-04-24 16:59:50,616 - freqtrade.exchange.common - WARNING - retrying _async_get_candle_history() still for 4 times
+2021-04-24 16:59:50,616 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair NEO/BTC due to ExchangeNotAvailable. Message: binance GET https://api.binance.com/api/v3/klines?symbol=NEOBTC&interval=5m&limit=1000"
+2021-04-24 16:59:50,616 - freqtrade.exchange.common - WARNING - retrying _async_get_candle_history() still for 4 times
+2021-04-24 16:59:50,616 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair LTC/BTC due to ExchangeNotAvailable. Message: binance GET https://api.binance.com/api/v3/klines?symbol=LTCBTC&interval=5m&limit=1000"
+2021-04-24 16:59:50,616 - freqtrade.exchange.common - WARNING - retrying _async_get_candle_history() still for 4 times
+2021-04-24 16:59:50,616 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair BAT/BTC due to ExchangeNotAvailable. Message: binance GET https://api.binance.com/api/v3/klines?symbol=BATBTC&interval=5m&limit=1000"
+2021-04-24 16:59:50,616 - freqtrade.exchange.common - WARNING - retrying _async_get_candle_history() still for 4 times
+2021-04-24 16:59:50,616 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair BCH/BTC due to ExchangeNotAvailable. Message: binance GET https://api.binance.com/api/v3/klines?symbol=BCHBTC&interval=5m&limit=1000"
+2021-04-24 16:59:50,617 - freqtrade.exchange.common - WARNING - retrying _async_get_candle_history() still for 4 times
+2021-04-24 16:59:50,617 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair XMR/BTC due to ExchangeNotAvailable. Message: binance GET https://api.binance.com/api/v3/klines?symbol=XMRBTC&interval=5m&limit=1000"
+2021-04-24 16:59:50,617 - freqtrade.exchange.common - WARNING - retrying _async_get_candle_history() still for 4 times
+2021-04-24 16:59:50,617 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair XRP/BTC due to ExchangeNotAvailable. Message: binance GET https://api.binance.com/api/v3/klines?symbol=XRPBTC&interval=5m&limit=1000"
+2021-04-24 16:59:50,617 - freqtrade.exchange.common - WARNING - retrying _async_get_candle_history() still for 4 times
+2021-04-24 16:59:50,617 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair XTZ/BTC due to ExchangeNotAvailable. Message: binance GET https://api.binance.com/api/v3/klines?symbol=XTZBTC&interval=5m&limit=1000"
+2021-04-24 16:59:50,617 - freqtrade.exchange.common - WARNING - retrying _async_get_candle_history() still for 4 times
+2021-04-24 16:59:50,617 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair NXS/BTC due to ExchangeNotAvailable. Message: binance GET https://api.binance.com/api/v3/klines?symbol=NXSBTC&interval=5m&limit=1000"
+2021-04-24 16:59:50,618 - freqtrade.exchange.common - WARNING - retrying _async_get_candle_history() still for 4 times
+2021-04-24 16:59:50,618 - freqtrade.exchange.common - WARNING - _async_get_candle_history() returned exception: "Could not fetch historical candle (OHLCV) data for pair BRD/BTC due to ExchangeNotAvailable. Message: binance GET https://api.binance.com/api/v3/klines?symbol=BRDBTC&interval=5m&limit=1000"
+2021-04-24 16:59:50,618 - freqtrade.exchange.common - WARNING - retrying _async_get_candle_history() still for 4 times
+2021-04-24 17:03:13,945 - freqtrade.loggers - INFO - Verbosity set to 0
+2021-04-24 17:03:13,946 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2021-04-24 17:03:13,946 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2021-04-24 17:03:13,946 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2021-04-24 17:03:13,946 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2021-04-24 17:03:13,946 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2021-04-24 17:03:13,946 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2021-04-24 17:03:13,948 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2021-04-24 17:03:13,948 - freqtrade.configuration.check_exchange - INFO - Checking exchange...
+2021-04-24 17:03:13,948 - freqtrade.configuration.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2021-04-24 17:03:13,948 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2021-04-24 17:03:13,948 - freqtrade.freqtradebot - INFO - Starting freqtrade 2021.3
+2021-04-24 17:03:13,987 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy SampleStrategy from '/freqtrade/user_data/strategies/sample_strategy.py'...
+2021-04-24 17:03:13,987 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'timeframe' with value in config file: 5m.
+2021-04-24 17:03:13,987 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: BTC.
+2021-04-24 17:03:13,987 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: 0.0002.
+2021-04-24 17:03:13,987 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'buy': 10, 'sell': 30}.
+2021-04-24 17:03:13,988 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'use_sell_signal' with value in config file: True.
+2021-04-24 17:03:13,988 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'sell_profit_only' with value in config file: False.
+2021-04-24 17:03:13,988 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'ignore_roi_if_buy_signal' with value in config file: False.
+2021-04-24 17:03:13,988 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'60': 0.01, '30': 0.02, '0': 0.04}
+2021-04-24 17:03:13,988 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2021-04-24 17:03:13,988 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.1
+2021-04-24 17:03:13,988 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2021-04-24 17:03:13,988 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2021-04-24 17:03:13,988 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2021-04-24 17:03:13,988 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2021-04-24 17:03:13,988 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: False
+2021-04-24 17:03:13,988 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'buy': 'limit', 'sell': 'limit', 'stoploss': 'market', 'stoploss_on_exchange': False}
+2021-04-24 17:03:13,989 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'buy': 'gtc', 'sell': 'gtc'}
+2021-04-24 17:03:13,989 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: BTC
+2021-04-24 17:03:13,989 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: 0.0002
+2021-04-24 17:03:13,989 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 30
+2021-04-24 17:03:13,989 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'buy': 10, 'sell': 30}
+2021-04-24 17:03:13,989 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_sell_signal: True
+2021-04-24 17:03:13,989 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using sell_profit_only: False
+2021-04-24 17:03:13,989 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_buy_signal: False
+2021-04-24 17:03:13,990 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using sell_profit_offset: 0.0
+2021-04-24 17:03:13,990 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2021-04-24 17:03:13,990 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2021-04-24 17:03:13,990 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2021-04-24 17:03:13,992 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2021-04-24 17:03:13,992 - freqtrade.exchange.exchange - INFO - Using CCXT 1.43.89
+2021-04-24 17:03:13,992 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'enableRateLimit': True}
+2021-04-24 17:03:13,999 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'enableRateLimit': True, 'rateLimit': 200}
+2021-04-24 17:03:14,006 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2021-04-24 17:03:16,484 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2021-04-24 17:03:16,524 - freqtrade.wallets - INFO - Wallets synced.
+2021-04-24 17:03:16,528 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist StaticPairList from '/freqtrade/freqtrade/plugins/pairlist/StaticPairList.py'...
+2021-04-24 17:03:16,528 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2021-04-24 17:03:16,698 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.telegram ...
+2021-04-24 17:03:17,356 - apscheduler.scheduler - INFO - Scheduler started
+2021-04-24 17:03:18,299 - freqtrade.rpc.telegram - INFO - rpc.telegram is listening for following commands: [['status'], ['profit'], ['balance'], ['start'], ['stop'], ['forcesell'], ['forcebuy'], ['trades'], ['delete'], ['performance'], ['stats'], ['daily'], ['count'], ['locks'], ['unlock', 'delete_locks'], ['reload_config', 'reload_conf'], ['show_config', 'show_conf'], ['stopbuy'], ['whitelist'], ['blacklist'], ['logs'], ['edge'], ['help'], ['version']]
+2021-04-24 17:03:18,300 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2021-04-24 17:03:19,196 - freqtrade.worker - INFO - Changing state to: RUNNING
+2021-04-24 17:03:19,196 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': 'Dry run is enabled. All trades are simulated.'}
+2021-04-24 17:03:19,635 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `binance`\n*Stake per trade:* `0.0002 BTC`\n*Minimum ROI:* `{'60': 0.01, '30': 0.02, '0': 0.04}`\n*Stoploss:* `-0.1`\n*Timeframe:* `5m`\n*Strategy:* `SampleStrategy`"}
+2021-04-24 17:03:20,048 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for BTC pairs to buy and sell based on [{'StaticPairList': 'StaticPairList'}]"}
+2021-04-24 17:03:24,255 - numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2021-04-24 17:03:24,256 - numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+2021-04-24 17:03:25,521 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:04:25,579 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:05:25,633 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:06:19,533 - freqtrade.rpc.telegram - INFO - Executing handler: _profit for chat_id: 1683056719
+2021-04-24 17:06:25,692 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:06:39,758 - freqtrade.rpc.telegram - INFO - Executing handler: _status for chat_id: 1683056719
+2021-04-24 17:06:39,760 - freqtrade.rpc.telegram - INFO - Executing handler: _status_table for chat_id: 1683056719
+2021-04-24 17:06:42,581 - freqtrade.rpc.telegram - INFO - Executing handler: _status for chat_id: 1683056719
+2021-04-24 17:06:46,643 - freqtrade.rpc.telegram - INFO - Executing handler: _profit for chat_id: 1683056719
+2021-04-24 17:06:57,351 - freqtrade.rpc.telegram - INFO - Executing handler: _count for chat_id: 1683056719
+2021-04-24 17:07:02,196 - freqtrade.rpc.telegram - INFO - Executing handler: _performance for chat_id: 1683056719
+2021-04-24 17:07:04,857 - freqtrade.rpc.telegram - INFO - Executing handler: _balance for chat_id: 1683056719
+2021-04-24 17:07:25,751 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:07:30,807 - freqtrade.rpc.telegram - INFO - Executing handler: _profit for chat_id: 1683056719
+2021-04-24 17:07:45,163 - freqtrade.rpc.telegram - INFO - Executing handler: _status for chat_id: 1683056719
+2021-04-24 17:07:46,714 - freqtrade.rpc.telegram - INFO - Executing handler: _daily for chat_id: 1683056719
+2021-04-24 17:08:14,213 - freqtrade.rpc.telegram - INFO - Executing handler: _performance for chat_id: 1683056719
+2021-04-24 17:08:25,810 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:09:25,868 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:10:25,919 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:11:25,977 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:12:26,036 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:13:26,092 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:14:26,150 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:15:26,200 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:16:26,258 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:17:26,316 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:18:26,374 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:19:26,432 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:20:26,484 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:21:26,542 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:22:26,599 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:23:26,657 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:24:26,715 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:25:26,764 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:26:26,822 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:27:26,879 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:28:26,932 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:29:26,990 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:30:27,039 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:31:27,094 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:32:27,152 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:33:27,209 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:34:27,263 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:35:27,312 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:36:27,368 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:37:27,426 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:38:27,483 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:39:27,541 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:40:09,862 - freqtrade.wallets - INFO - Wallets synced.
+2021-04-24 17:40:09,863 - freqtrade.freqtradebot - INFO - Buy signal found: about create a new trade with stake_amount: 0.0002 ...
+2021-04-24 17:40:09,863 - freqtrade.freqtradebot - INFO - Executing Buy for LTC/BTC
+2021-04-24 17:40:09,863 - freqtrade.freqtradebot - INFO - Using Last Bid / Last Price
+2021-04-24 17:40:10,391 - freqtrade.wallets - INFO - Wallets synced.
+2021-04-24 17:40:10,391 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 7, 'type': buy, 'exchange': 'Binance', 'pair': 'LTC/BTC', 'limit': 0.00452, 'order_type': 'limit', 'stake_amount': 0.0002, 'stake_currency': 'BTC', 'fiat_currency': 'BRL', 'amount': 0.04, 'open_date': datetime.datetime(2021, 4, 24, 17, 40, 10, 363922), 'current_rate': 0.00452}
+2021-04-24 17:40:15,185 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=7, pair=LTC/BTC, amount=0.04000000, open_rate=0.00452000, open_since=2021-04-24 17:40:10)
+2021-04-24 17:40:15,189 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=7, pair=LTC/BTC, amount=0.04000000, open_rate=0.00452000, open_since=2021-04-24 17:40:10) [buy]: 1.808e-07 BTC - rate: 0.001
+2021-04-24 17:40:15,190 - freqtrade.persistence.models - INFO - Updating trade (id=7) ...
+2021-04-24 17:40:15,190 - freqtrade.persistence.models - INFO - LIMIT_BUY has been fulfilled for Trade(id=7, pair=LTC/BTC, amount=0.04000000, open_rate=0.00452000, open_since=2021-04-24 17:40:10).
+2021-04-24 17:40:27,588 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:41:27,640 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:42:27,694 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:43:27,748 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:44:27,801 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:45:27,848 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:46:27,903 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:47:27,959 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:48:28,012 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:49:28,066 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:50:28,114 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:51:28,167 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:52:28,222 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:53:28,272 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:54:28,322 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:55:28,439 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:56:28,493 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:57:28,547 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:58:28,602 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 17:59:28,656 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 18:00:28,704 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 18:01:28,758 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 18:02:28,811 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 18:03:28,863 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 18:04:28,916 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 18:05:28,965 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 18:06:29,018 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 18:07:29,072 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 18:08:29,126 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 18:09:29,179 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 18:10:29,227 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 18:11:29,280 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 18:12:29,334 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 18:13:29,387 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 18:14:29,440 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 18:15:29,486 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 18:16:29,539 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 18:17:29,593 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 18:18:29,644 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 18:19:29,695 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 18:20:29,743 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 18:21:29,795 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 18:22:29,848 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 18:23:29,900 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 18:24:29,951 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 18:25:29,998 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 18:26:30,052 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 18:27:30,105 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 18:28:30,156 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 18:29:30,210 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 18:30:30,256 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 18:31:30,309 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 18:32:30,362 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 18:33:30,414 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 18:34:30,467 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 18:35:30,511 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 18:36:30,564 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 18:37:30,613 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 18:38:30,665 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
+2021-04-24 18:39:30,714 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2021.3', state='RUNNING'
